@@ -28,8 +28,8 @@ function setInfo(data) {
 
     cityOutput.innerHTML= `City: ${cityName}`;
     descriptionOutput.innerHTML= `Description: ${description}`;
-    tempOutput.innerHTML= `Temprature: ${KelvinToCelsius(temp)}`;
-    windOutput.innerHTML= `Wind Speed: ${wind}`;
+    tempOutput.innerHTML= `Temprature: ${KelvinToCelsius(temp)}°C`;
+    windOutput.innerHTML= `Wind Speed: ${wind} m/s`;
 }
 
 addInput.addEventListener("click",GetWeather);

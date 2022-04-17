@@ -10,21 +10,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="position-absolute top-50 start-50 translate-middle">        
-        <div class="pb-4">
-            <input type="submit" value="ثبت" id="add">
-            <input type="text" dir="rtl" placeholder="شهر مورد نظر را وارد کنید" id="cityInput">
-        </div>
 
-        <div>
-            <h2 id="cityOutput"></h2>
+    <div class="position-absolute top-50 start-50 translate-middle">         
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="cityInput" placeholder="Input Your City">
+            <button class="btn btn-outline-danger" type="button" id="add">Button</button>
+        </div>
+        <div class="text-center">
+            <h2 class="py-3"><span class="py-3 badge bg-danger" id="cityOutput"></span></h2>
             <p id="descriptionOutput"></p>
             <p id="tempOutput"></p>
             <p id="windOutput"></p>
         </div>
-
     </div>
-
     <script src="./main.js"></script>
 </body>
 </html>
